@@ -14,7 +14,7 @@ public class FavoritesDBHandler extends SQLiteOpenHelper {
     public static final String COLUMN_TITLE          = "title";
     public static final String COLUMN_SUBTITLE       = "subtitle";
     public static final String COLUMN_PATH           = "songpath";
-
+//his line declares a constant variable named TABLE_CREATE to store the SQL statement for creating the table.
     private static final String TABLE_CREATE = "CREATE TABLE " + TABLE_SONGS + " (" + COLUMN_ID
             + " INTEGER, " + COLUMN_TITLE + " TEXT, " + COLUMN_SUBTITLE
             + " TEXT, " + COLUMN_PATH + " TEXT PRIMARY KEY " + ")";

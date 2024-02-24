@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
         });
-
+//this code sets up the ViewPager to display fragments and associates it with a TabLayout for tab navigation.
         tabLayout = findViewById(R.id.tabs);
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setupWithViewPager(viewPager);
@@ -241,7 +241,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
     }
-
+//search code
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         this.menu = menu;

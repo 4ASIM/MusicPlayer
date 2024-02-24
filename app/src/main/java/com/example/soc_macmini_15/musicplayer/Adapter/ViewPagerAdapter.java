@@ -13,7 +13,7 @@ import com.example.soc_macmini_15.musicplayer.Fragments.FavSongFragment;
 public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     private ContentResolver contentResolver;
-    private String title[] = {"All SONGS","CURRENT PLAYLIST", "FAVORITES"};
+    private String title[] = {"All SONGS","\u200E " ,"FAVORITES"};
 
     public ViewPagerAdapter(FragmentManager fm, ContentResolver contentResolver) {
         super(fm);

@@ -48,7 +48,10 @@ public class AllSongFragment extends ListFragment {
         tabFragment.setArguments(bundle);
         contentResolver1 = mcontentResolver;
         return tabFragment;
-    }
+    }  /*The code defines an AllSongFragment class that extends ListFragment in an Android application. It is responsible for displaying a list of songs.
+     It contains a ContentResolver object, two ArrayList objects to store the songs,
+     and a ListView object to display them. The getInstance method creates and returns an
+     instance of the AllSongFragment class with the provided position and content resolver.*/
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -60,7 +63,14 @@ public class AllSongFragment extends ListFragment {
     public void onAttach(Context context) {
         super.onAttach(context);
         createDataParse = (createDataParse) context;
-    }
+    }/*In summary, the onAttach method in this code is used to establish a connection between the fragment and its hosting activity by assigning the hosting activity to a member variable of type createDataParse.
+
+
+
+
+
+
+*/
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
